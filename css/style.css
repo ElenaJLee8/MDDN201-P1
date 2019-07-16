@@ -6,7 +6,9 @@
 
 body{
 	margin: 0px; /* Often browsers have a 5px margin by deafult*/
-	font-family: sans-serif;
+	/*font-family: sans-serif;*/
+	font-family: 'Poppins', sans-serif;
+	background-color: #E6F7F6;
 }
 
 section{
@@ -29,6 +31,8 @@ nav{
 	height: 60px;
 	background-color: #b7d5d4;
 	text-align:center;
+	margin-bottom: 2em;
+
 }
 
 nav a, nav h3{
@@ -44,7 +48,33 @@ nav a:hover{
 	text-decoration: underline; /* Hover styles to let people know they can click it */
 }
 
+#maintitle{	background-color: #b7d5d4;
+	text-align: center;
+}
 
+#manholetitle{
+	margin-left: 1em;
+}
+
+#cctvtitle{
+	margin-left: 1em;
+}
+
+#powerlinestitle{
+	margin-left: 1em;
+}
+
+#manholep{
+	margin-left: 1em;
+}
+
+#cctvp{
+	margin-left: 1em;
+}
+
+#powerlinesp{
+	margin-left: 1em;
+}
 
 /* Simple grid */
 .g-row{
