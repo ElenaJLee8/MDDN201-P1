@@ -1,5 +1,5 @@
 *{
-	box-sizing: border-box; 
+	box-sizing: border-box;
 	/* This makes the widths of elements more consistent
 		Full details here https://css-tricks.com/box-sizing/ */
 }
@@ -26,33 +26,41 @@ header{
 	padding-bottom: 50px;
 }
 
+#main{
+	background-color: #000000;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
 nav{
 	width: 100%;
-	height: 60px;
+	height: 50px;
 	background-color: #b7d5d4;
 	text-align:center;
-	margin-bottom: 2em;
+	margin-top:-20px;
+	position: fixed;
 
 }
 
 nav a, nav h3{
 	float: left;
-	margin: 0px;
-	line-height: 60px;
+	line-height: 50px;
+	margin: 0;
 	margin-left: 1em;
 	margin-right: 1em;
 	text-decoration: none;
+
 }
 
 nav a:hover{
 	text-decoration: underline; /* Hover styles to let people know they can click it */
 }
 
-#maintitle{	background-color: #b7d5d4;
-	text-align: center;
+#maintitle{
+	margin-top: 2em;
 }
 
-#manholetitle{
+/*#manholetitle{
 	margin-left: 1em;
 }
 
@@ -60,7 +68,7 @@ nav a:hover{
 	margin-left: 1em;
 }
 
-#powerlinestitle{
+#markingstitle{
 	margin-left: 1em;
 }
 
@@ -72,10 +80,47 @@ nav a:hover{
 	margin-left: 1em;
 }
 
-#powerlinesp{
+#markingsp{
+	margin-left: 1em;
+} */
+
+/* image margins*/
+
+#mh2  {margin-left: 1em;
+}
+
+#mh4 {
 	margin-left: 1em;
 }
 
+#mh6 {
+	margin-left: 1em;
+}
+
+#cctv2{
+margin-left: 1em;
+}
+
+#cctv4{
+	margin-left: 1em;
+}
+
+#cctv9{
+	margin-left: 1em;
+}
+
+#markings2{
+	margin-left: 1em;
+}
+
+
+#antenna2{
+	margin-left: 1em;
+}
+
+#antenna4{
+	margin-left: 1em;
+}
 /* Simple grid */
 .g-row{
 	width: 100%;
